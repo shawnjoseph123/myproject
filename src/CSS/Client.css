@@ -1,0 +1,128 @@
+.main-client-sec{
+    background-color: var(--background-color-two);
+    padding: 100px 50px 100px 50px ;
+    
+}
+
+
+.review{
+width: 100%;
+margin: auto;
+}
+
+.client{
+    background: var(--background-color);
+    border: 3px solid var(--yellow-color);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    /* border: .5px solid var(--yellow-color); */
+    padding: 50px;
+    }
+
+.slick-slide > div{
+   margin: 0 20px;
+   padding-top: 50px;
+}
+
+.main-client-sec .main-content h1 {
+    font-family: "Cormorant Garamond", serif;
+    padding-top: 20px;
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.client-tag h5 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color-two);
+    font-weight: 300;
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.client-tag  h5::before {
+    position: absolute;
+    content: "||";
+    top: 0;
+    left: 0;
+}
+.review-icon{
+    color: var(--white-color);
+    font-size: 50px;
+}
+
+.client p{
+    color: white;
+    font-weight: 200;
+    line-height: 35px;
+}
+
+.client h5{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: var(--yellow-color);
+}
+
+@media (min-width: 1400px) {
+    .review-mob{
+        display: none;
+       }
+}
+
+@media (min-width: 760px) and (max-width: 1400px) {
+    .review-mob{
+        display: none;
+       }
+}
+
+@media (min-width: 480px) and (max-width: 1000px) {
+    .review-mob{
+     display: none;
+    }
+
+    .client{
+      padding: 30px;
+    }
+}
+
+
+@media (min-width: 360px) and (max-width: 480px) {
+
+
+    .main-client-sec {
+        padding: 100px 0px 100px 0px ;
+    }
+
+    .main-content{
+     padding-left: 20px;  
+    }
+
+    .main-content h1{
+        font-size: 50px !important;
+    }
+ 
+    .client-tag h5{
+      font-size: 20px;
+    }
+
+    .client{
+        border: 3px solid var(--yellow-color);
+    border-radius: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+    .review-mob{
+        margin-top: 30px;
+    }
+    .review{
+     display: none;
+    }
+}

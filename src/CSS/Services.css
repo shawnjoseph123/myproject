@@ -1,0 +1,63 @@
+:root {
+    --background-color: #64394c;
+    --text-color: #858792;
+    --text-color-two: #a9aab3;
+    --yellow-color: #c99408;
+    --hover-one: #424557cc;
+    --white-color: #ffffff;
+    --background-color-two: #79495e;
+}
+
+.services-main-container {
+    padding: 100px 100px 50px 100px;
+    width: 100%;
+    height: auto;
+    background-color: #79495e;
+}
+
+.services-main-container h1 {
+    font-family: "Cormorant Garamond", serif;
+    padding-top: 20px;
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.services-tag h5 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color-two);
+    font-weight: 300;
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.services-tag h5::before {
+    position: absolute;
+    content: "||";
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 760px) and (max-width: 1200px) {
+    .services-main-container {
+        padding: 100px 20px 20px 100px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 480px){
+
+    .services-main-container {
+        padding: 50px 0px 50px 0px; 
+    }
+
+    .main-content{
+        padding-left: 20px;
+    }
+    .services-main-container h1 {
+        font-size: 50px;
+        font-weight: 700;
+        color: var(--white-color);
+    }
+}

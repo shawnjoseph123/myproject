@@ -1,0 +1,151 @@
+.main-footer{
+    background-color: #5e3346;
+    padding: 100px 0px 20px 0px;
+}
+
+.footer-row{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info{
+    
+
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    column-gap: 20px;
+}
+
+.footer-info p a{
+    font-family: "Poppins", sans-serif;
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+.footer-icon-small{
+    color: white;
+    font-size: 18px;
+    border: 0.5px solid #595c69;
+    padding: 30px;
+    border-radius: 100%;
+    transition: .5s ease;
+}
+
+.footer-icon-small:hover{
+    background-color: white;
+    color: var(--background-color);
+    transition: .5s ease;
+    cursor: pointer;
+}
+.footer-icon{
+    color: white;
+    font-size: 18px;
+    border: 0.5px solid #595c69;
+    padding: 25px;
+    border-radius: 100%;
+}
+
+.footer-icon:hover{
+    background-color: white;
+    color: var(--background-color);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+hr{
+    width: 100%;
+    margin-top: 50px;
+    color: #afb2c5;;
+}
+
+.after-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.after-footer-box p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.after-footer-box span{
+    color: white;
+}
+
+.after-footer-box img{
+    width: 100%;
+}
+
+@media (min-width: 760px) and (max-width: 1200px) {
+
+    .main-footer{
+        padding: 20px 0px 20px 0px;
+    }
+    .footer-info p a{
+        font-size: 18px;
+    } 
+
+    .footer-icon{
+        padding: 15px;
+    }
+
+    .footer-icon-small{
+        padding: 15px;
+    }
+
+    hr{
+        margin-top: 20px;
+    }
+
+    .after-footer-box p {
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+    .main-footer{
+        padding: 30px 0px 20px 0px;
+    }
+    .footer-info p a{
+        font-size: 17px;
+    }
+    .footer-icon-small{
+        padding: 18px;
+    }
+
+    .footer-info{
+        display: flex;
+        justify-content: start;
+        column-gap: 10px;
+    }
+
+    .footer-icon{
+        padding: 18px;
+    }
+
+    .after-footer-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .after-footer-box p {
+        text-align: center;
+    }
+
+    .after-footer-box img{
+        width: 70%;
+       
+    }
+}

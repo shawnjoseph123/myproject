@@ -1,0 +1,123 @@
+:root {
+    --background-color: #64394c;
+    --text-color: #858792;
+    --text-color-two: #a9aab3;
+    --yellow-color: #c99408;
+    --hover-one: #424557cc;
+    --white-color: #ffffff;
+    --background-color-two: #79495e;
+}
+
+.main-services-card{
+    padding-top: 50px;
+}
+.card-wapper{
+    display: flex;
+justify-content: center;
+}
+.carousel-slide{
+ border: 1px solid black;
+}
+.card{
+    width: 100%;
+    margin: 10px;
+    background-color: var(--background-color);
+    height: 500px;
+    padding: 20px;
+    border-radius: 0px;
+    transition: 0.2s ease;
+    border-radius: 20px;
+}
+
+.card:hover{
+    margin-top: -5px;
+    transition: 0.3s ease;
+    -webkit-box-shadow: 10px 10px 34px 1px rgba(201,148,8,1);
+    -moz-box-shadow: 10px 10px 34px 1px rgba(201,148,8,1);
+    box-shadow: 10px 10px 34px 1px rgba(201,148,8,1);;
+    cursor: pointer;
+}
+
+.card-body{
+    display: grid;
+    grid-gap: 30px;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: var(--white-color);
+}
+
+.service-icon{
+    color: white;
+    font-size: 60px;
+}
+
+.card-list li{
+    font-family: "Poppins", sans-serif; 
+    font-size: 16px;
+    align-items: left;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    }
+
+
+    @media (min-width: 480px) and (max-width: 1000px){
+
+    
+        .card{
+            width: 100%;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .card-title{
+            font-size: 20px;
+        }
+
+        .card-list li{
+            font-size: 14px;
+        }
+
+        .service-icon{
+            font-size: 40px;
+        }
+    }
+
+
+    @media (min-width: 360px) and (max-width: 480px) {
+
+        .card-wapper{
+            display: block;
+        }
+
+        .card{
+            width: 300px;
+            height: 400px;
+            margin-bottom: 10px;
+            padding: 10px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .card-body{
+            display: grid;
+            grid-gap: 5px;
+        }
+
+        .card-title{
+            font-size: 20px;
+        }
+
+        .card-list li{
+            font-size: 14px;
+        }
+
+        .service-icon{
+            font-size: 40px;
+        }
+
+    }
+    

@@ -1,0 +1,105 @@
+
+
+.main-skills-sec{
+
+ background-color: var(--background-color);
+ padding: 100px 0px 100px 0px ;
+}
+
+.skills-sec button{
+display: inline-block;
+width: 40%;
+}
+
+.skills-sec{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+.skills-sec h1 {
+    font-family: "Cormorant Garamond", serif;
+    padding-top: 20px;
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.skills-tag h5 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color-two);
+    font-weight: 300;
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.skills-tag h5::before {
+    position: absolute;
+    content: "||";
+    top: 0;
+    left: 0;
+}
+
+.progress-main{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: var(--background-color-two);
+    height: 120px;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 15px rgba(201, 148, 8, 1);
+}
+
+.progress{
+    align-items: center;
+    height: 15px;
+    margin-top: 20px;
+}
+
+.progress-bar{
+    background-color: var(--yellow-color);
+    height: 15px;
+}
+
+.progress-text{
+    color: var(--background-color);
+   font-weight: 600;
+   font-size: 14px;
+    font-family: "Poppins", sans-serif;;
+}
+
+.progress-main h6{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color-two);
+}
+
+@media (min-width: 480px) and (max-width: 1000px){
+    .skills-sec button{
+        width: 60%;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 480px){
+
+    .progress-bar-sec{
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .skills-sec h1 {
+        padding-top: 20px;
+        font-size: 50px;
+    }
+
+    .skills-sec button{
+        display: inline-block;
+        width: 60%;
+        padding: 20px 30px;
+        }
+}
