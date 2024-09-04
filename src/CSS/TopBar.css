@@ -1,0 +1,38 @@
+.main-topbar{
+    background-color: var(--background-color);
+    padding: 150px 0px 100px 0px;
+}
+
+.main-topbar h1{
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+
+.main-topbar h6 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-two);
+    width: 250px;
+    height: 50px;
+   padding: 30px;
+    margin: 30px auto 0px auto;
+    border-radius: 50px;
+    word-spacing: 2px;
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    transition: .3s ease;
+}
+
+.main-topbar h6:hover {
+    color: white;
+     cursor: pointer;
+     transition: .3s ease;
+}

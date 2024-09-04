@@ -1,0 +1,52 @@
+.AboutSecTwo{
+    background-color: var(--background-color);
+    padding: 50px;
+    display: flex;
+}
+
+
+
+
+.AboutSecTwo-child{
+    width: 50%;
+    padding: 50px;
+    
+}
+
+.AboutSecTwo-child .content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.AboutSecTwo-child h2{
+font-family: "Cormorant Garamond", serif;
+font-size: 45px;
+text-align: center;
+font-weight: 500;
+color: var(--white-color);
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+ 
+    .AboutSecTwo{
+        display: block;  
+        padding: 0px;
+        padding: 50px 0px;
+    }
+
+    .AboutSecTwo-child{
+        width: 100%;
+        padding: 20px;
+        
+    }
+    .AboutSecTwo-child .content{
+        padding: 0px;
+        display: block;
+        
+    }
+
+    .AboutSecTwo-child h2{
+        font-size: 35px;
+    }
+}
