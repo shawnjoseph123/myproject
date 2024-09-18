@@ -6,7 +6,6 @@ import Counter from './Counter';
 import Portfolio from './Portfolio';
 import Client from './Client';
 import Company from './Company';
-import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -18,7 +17,6 @@ const Home = () => {
     <Portfolio/>
     <Client/>
     <Company/>
-    <Footer/>
    </>
   )
 }
