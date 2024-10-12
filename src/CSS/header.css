@@ -10,18 +10,14 @@
 
 .navbar{
     background-color: var(--background-color)!important;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
-.menu{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: auto;
+.navbar-nav{
+    margin: auto;
 }
-
 .navbar-brand img{
- width: 100%;
+ 
 }
 
 .nav-link{
@@ -63,20 +59,23 @@
     background-color: var(--hover-one) ;
     transition: 0.5s ease;
 }
+.navbar-toggler-icon{
+    color: white;
+}
 
 @media (min-width: 480px) and (max-width: 1000px) {
 
-    .navbar{
+    /* .navbar{
         width: 100%;
         padding: 30px 50px;
-    }
+    } */
 
-    .menu{
+    /* .menu{
         border: 1px solid white;
        display: flex;
        justify-content: center;
        align-items: center;
-    }
+    } */
 
       .btn-one{
         display: none;
@@ -105,14 +104,6 @@
           background-color: #66334c !important;
         }
 
-        .menu{
-            padding: 30px 0px;
-            display: flex;
-   justify-content: left;
-   align-items: center;
-            transition: .2s ease;
-        }
-
         .btn-one{
           display: none;
         }
@@ -122,9 +113,7 @@
             border: 2px solid var(--yellow-color);
         }
 
-        .navbar-toggler:hover{
-            border: 1px solid var(--yellow-color) !important;
-        }
+       
 
         .fa-bars{
              font-size: 20px;
@@ -133,7 +122,7 @@
 
         .navbar-brand{
             display: inline-block;
-            width: 50%;
+           width: 60%;
         }
 
         .navbar-brand img{

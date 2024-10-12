@@ -13,15 +13,9 @@
 .count h1{
     font-size: 100px;
     font-family: "Poppins", sans-serif;
-    color: var(--background-color-two);
-    background: var(--yellow-color);
-    -webkit-text-stroke: 5px transparent ;
-    /* -webkit-text-stroke-color: var(--yellow-color);
-    -webkit-text-stroke-width: 1px;  */
-    -webkit-background-clip: text;
-    font-weight: 300;
+    font-weight: 800;
     text-align: center;
-    
+    color: var(--yellow-color);    
 }
 
 .count h4{

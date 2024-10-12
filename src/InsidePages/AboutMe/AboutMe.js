@@ -6,11 +6,12 @@ import AboutTabs from './AboutTabs';
 import Counter from '../../Counter';
 import Client from '../../Client';
 import Company from '../../Company';
+import Header from '../../Header';
 
 const AboutMe = () => {
   return (
     <div> 
-        
+        <Header/> 
     <TopBar
     pageTitle= "About Me"
    />

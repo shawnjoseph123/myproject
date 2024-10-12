@@ -16,7 +16,7 @@ const Counter = () => {
           </div>
           <div className='count'>
           <h1>
-        <CountUp start={0} end={30} duration={5} delay={0}/>+
+        <CountUp start={0} end={20} duration={5} delay={0}/>+
     </h1>
      <h4>Project Complete</h4>
           </div>

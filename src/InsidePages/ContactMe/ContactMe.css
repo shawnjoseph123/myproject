@@ -1,0 +1,90 @@
+.main-contact-container{
+    background-color: var(--background-color-two);
+    padding: 100px 0px 100px 0px;
+}
+
+.contact-box{
+ padding: 20px;
+}
+
+.contact-box .main-content h1{
+    font-size: 70px;
+}
+.first-contact-box{
+    background-color: var(--background-color);
+}
+
+.info-box{
+    background-color: var(--background-color-two);
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.info-box:hover{
+    background-color: var(--background-color);
+    border: 1px solid var(--yellow-color);
+    transition: 0.5s ease-in-out;
+}
+.info-box h4{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.info-box p{
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+}
+
+.form-row{
+margin-bottom: 20px;
+}
+
+.form-row input{
+ background: transparent;
+ border: 1px solid var(--text-color);
+ border-radius: 0px;
+ padding: 20px;
+ color: white !important;
+ font-family: "Poppins", sans-serif;
+}
+
+.form-row input:focus{
+    background: transparent;
+    border: 1px solid var(--text-color);
+}
+
+.form-row input::placeholder{
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color);
+}
+
+textarea{
+    background: transparent !important;
+    border: 1px solid var(--text-color) !important;
+    border-radius: 0px !important;
+    padding: 20px !important;
+    color: white !important;
+}
+textarea::placeholder{
+    font-family: "Poppins", sans-serif  !important;
+    color: var(--text-color) !important;
+}
+@media (min-width: 360px) and (max-width: 480px) {
+    .form-row input{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 480px) and (max-width: 1000px) {
+    .info-box p{
+        font-size: 10px;
+    }
+
+}

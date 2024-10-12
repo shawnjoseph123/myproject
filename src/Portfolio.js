@@ -1,5 +1,6 @@
 import React from 'react'
 import "./CSS/Portfolio.css";
+import { NavLink} from 'react-router-dom';
 const Portfolio = () => {
   return (
     <>
@@ -38,7 +39,8 @@ const Portfolio = () => {
         </div>
         </div>
 
-        <button className='btn-two'> View More <i class="fa-solid fa-eye"/></button>
+        
+        <NavLink className="btn-two" to="/work">View More<i class="fa-solid fa-eye"/></NavLink>
 
       </div>
 

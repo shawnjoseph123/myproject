@@ -6,10 +6,12 @@ import Counter from './Counter';
 import Portfolio from './Portfolio';
 import Client from './Client';
 import Company from './Company';
+import Header from './Header';
 
 const Home = () => {
   return (
     <>
+     <Header/>
     <MainBanner/>
     <Services/>
     <Skills/>

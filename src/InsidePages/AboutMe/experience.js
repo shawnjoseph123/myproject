@@ -1,10 +1,26 @@
 const myexperience = [
-      {
+     
+  {
    
-        id: "1",
+    id: "1",
+    position: " WordPress/Shopify Developer",
+    company: "ANH Groups",
+    time: "Mar, 2023 - Aug, 2024",
+    duties: [
+        "Customized WordPress and Shopify themes according to requirements.",
+        "Enhancethe speed of the website for a great user experience.",
+        "Upload Products and Manage all E-commerce Functionality on both CMS platforms",
+        "Have a great knowledge of Elementor and WP Bakery Page Builder.",
+        "Implement Additional CSS as per requirement."
+      ]
+
+},
+  {
+   
+        id: "2",
         position: "Web Developer (Remote)",
         company: "Zeetek Services",
-        time: "May, 2024- Present",
+        time: "May 2024- July 2024",
         duties: [
             "Customized WordPress and Shopify themes according to requirements.",
 "Convert PSD to HTML/WordPress",
@@ -17,21 +33,7 @@ const myexperience = [
 
     },
     
-    {
-   
-        id: "2",
-        position: " WordPress/Shopify Developer",
-        company: "ANH Groups",
-        time: "Mar, 2023 - Aug, 2024",
-        duties: [
-            "Customized WordPress and Shopify themes according to requirements.",
-            "Enhance the speed of the website for a great user experience.",
-            "Upload Products and Manage all E-commerce Functionality on both CMS platforms",
-            "Have a great knowledge of Elementor and WP Bakery Page Builder.",
-            "Implement Additional CSS as per requirement."
-          ]
-
-    },
+ 
     {
    
       id: "3",
@@ -51,7 +53,7 @@ const myexperience = [
   {
    
     id: "4",
-    position: "Junior WordPress & Shopify Developer",
+    position: "WordPress & Shopify Developer Intern",
     company: "Dapytech",
     time: "Aug, 2022 - Jan 2023",
     duties: [

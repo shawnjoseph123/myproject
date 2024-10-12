@@ -10,6 +10,13 @@
     background-color: var(--background-color);
 } */
 
+*{
+    a{
+      text-decoration: none;
+    }
+}
+ 
+
 .main-container {
     width: 100%;
     padding: 100px 50px 100px 50px;
@@ -163,6 +170,10 @@ p {
 }
 
 @media (min-width: 480px) and (max-width: 1000px) {
+    .main-container {
+        width: 100%;
+        padding: 120px 50px 120px 50px;
+    }
     .sec-2 img {
         width: 380px;
         height: 380px;

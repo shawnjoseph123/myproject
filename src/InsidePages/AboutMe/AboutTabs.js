@@ -8,16 +8,19 @@ const AboutTabs = () => {
     <div className="main-tab-container">
       <div className="tabs-second">
      <ul className="nav nav-pills" id='pills-tab'>
-  <li className="nav-item">
-    <a className="nav-link active" data-bs-toggle="pill" href="#experience">Experience</a>
-  </li>
-  <li className="nav-item">
+  {/* <li className="nav-item nav-item-tabs">
+    <a className="nav-link-active active" data-bs-toggle="pill" href="#experience">Experience</a>
+  </li> */}
+   <li className="nav-item nav-item-tabs">
+    <a className="nav-link  active" data-bs-toggle="pill" href="#experience">Experience</a>
+  </li>  
+  <li className="nav-item nav-item-tabs">
     <a className="nav-link" data-bs-toggle="pill" href="#education">Education</a>
   </li> 
     </ul>
     </div>
     <div className="tab-content py-3" id='myTabContent'>
-    <div className="tab-pane fade" id='experience'>
+    <div className="tab-pane fade  show active" id='experience'>
           <div className="main-tab-content">
          
          {myexperience.map((exp)=>{
@@ -44,7 +47,7 @@ const AboutTabs = () => {
        
         </div>
      </div>
-     <div className="tab-pane fade show active" id='education'>
+     <div className="tab-pane fade" id='education'>
         <div className="main-tab-content">
         {myeducation.map((edu)=>{
             return(

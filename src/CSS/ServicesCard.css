@@ -34,7 +34,7 @@ justify-content: center;
     transition: 0.3s ease;
     -webkit-box-shadow: 10px 10px 34px 1px rgba(201,148,8,1);
     -moz-box-shadow: 10px 10px 34px 1px rgba(201,148,8,1);
-    box-shadow: 10px 10px 34px 1px rgba(201,148,8,1);;
+    box-shadow: 10px 10px 34px 1px rgba(201,148,8,1);
     cursor: pointer;
 }
 

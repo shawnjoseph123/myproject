@@ -9,7 +9,7 @@ const MyPortfolios = [
     {
         id : "2",
         text: "Home Furniture",
-      img : "/Asset/hf.png",
+      img : "/Asset/hf.jpg",
         link: "https://homefurnitureuk.com/"
     },
     {
